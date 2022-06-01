@@ -1,7 +1,29 @@
+body {
+	background-image: url('https://th.bing.com/th/id/OIP.hiCq5wVGo9z7KAGVJW4SjQHaEo?pid=ImgDet&rs=1');
+	background-size: cover;
+}
+
 #content {
   margin-left: auto;
   margin-right: auto;
   width: 650px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#portfolio_image {
+	border-color: #F0FFFF;
+	position: relative;
+	right: 300px;
+}
+
+#links {
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#links a{
+	color: #FFFFFF;
 }
 
 #greeting-container {
