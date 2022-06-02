@@ -13,9 +13,7 @@ body {
 
 #content h1 {
 	font-family: sans-serif;
-}
-
-#title{
+    color: yellow;
 	text-decoration: underline;
 }
 
@@ -39,6 +37,17 @@ body {
 	bottom: 150px;
 }
 
+#fun_facts h2{
+	text-decoration: underline;
+	font-family: sans-serif;
+	color: yellow;
+}
+
+#fun_facts li{
+	position: relative;
+	right: 20px;
+}
+
 #links {
 	text-align: center;
 	color: #FFFFFF;
@@ -46,6 +55,10 @@ body {
 
 #links a{
 	color: #FFFFFF;
+}
+
+#quote_generator{
+	border: 3px solid;
 }
 
 #greeting-container {
