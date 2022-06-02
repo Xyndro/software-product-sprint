@@ -11,10 +11,32 @@ body {
   color: #FFFFFF;
 }
 
+#content h1 {
+	font-family: sans-serif;
+}
+
+#title{
+	text-decoration: underline;
+}
+
 #portfolio_image {
 	border-color: #F0FFFF;
 	position: relative;
 	right: 300px;
+}
+
+#message_box {
+	position: relative;
+	left: 150px;
+	bottom: 200px;
+}
+
+#fun_facts {
+	width: 550px;
+	border: 3px solid;
+	position: relative;
+	right: 250px;
+	bottom: 150px;
 }
 
 #links {
