@@ -18,7 +18,6 @@ body {
 }
 
 #portfolio_image {
-	border-color: #F0FFFF;
 	position: relative;
 	right: 300px;
 }
@@ -59,8 +58,20 @@ body {
 
 #quote_generator{
 	border: 3px solid;
+	width: 550px;
+	height: 275px;
+	position: relative;
+	left: 335px;
+	bottom: 431px;
 }
 
-#greeting-container {
+#quote_generator h2{
+	text-decoration: underline;
+	font-family: sans-serif;
+	color: yellow;
+}
+
+#quoteContainer {
   margin-top: 20px;
+  color: blue;
 }
