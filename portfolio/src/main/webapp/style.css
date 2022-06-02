@@ -47,6 +47,19 @@ body {
 	right: 20px;
 }
 
+#projects_table{
+	text-align: center;
+	color: #FFFFFF;
+	position: relative;
+	bottom: 400px;
+}
+
+#projects_table h1{
+	text-decoration: underline;
+	font-family: sans-serif;
+	color: yellow;
+}
+
 #links {
 	text-align: center;
 	color: #FFFFFF;
