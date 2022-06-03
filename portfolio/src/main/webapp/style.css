@@ -60,6 +60,10 @@ body {
 	color: yellow;
 }
 
+#projects td, #projects th{
+	text-align: center;
+}
+
 #links {
 	text-align: center;
 	color: #FFFFFF;
