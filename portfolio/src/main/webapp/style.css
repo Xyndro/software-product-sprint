@@ -17,6 +17,12 @@ body {
 	text-decoration: underline;
 }
 
+#title{
+	border: 3px solid #FFFFFF;
+	position: relative;
+	bottom: 5px;
+}
+
 #portfolio_image {
 	position: relative;
 	right: 300px;
@@ -62,6 +68,19 @@ body {
 
 #projects td, #projects th{
 	text-align: center;
+}
+
+#projects_table a{
+	color: #00FFFF;
+}
+
+#imagery_strip {
+	color: #FFFFFF;
+	text-align: center;
+}
+
+#image_box{
+	border: 3px solid #FFFFFF;
 }
 
 #links {
