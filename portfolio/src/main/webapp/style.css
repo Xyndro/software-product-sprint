@@ -26,6 +26,7 @@ body {
 #portfolio_image {
 	position: relative;
 	right: 300px;
+    top: 10px;
 }
 
 #message_box {
