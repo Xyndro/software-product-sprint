@@ -61,7 +61,7 @@ body {
 	bottom: 400px;
 }
 
-#projects_table h1{
+#projects_table h1, #projects_table th{
 	text-decoration: underline;
 	font-family: sans-serif;
 	color: yellow;
@@ -71,6 +71,10 @@ body {
 	text-align: center;
 }
 
+#projects{
+	border: 3px solid red;
+}
+
 #projects_table a{
 	color: #00FFFF;
 }
@@ -78,10 +82,48 @@ body {
 #imagery_strip {
 	color: #FFFFFF;
 	text-align: center;
+    position: relative;
+	bottom: 350px;
+}
+
+#imagery_strip h1{
+	text-decoration: underline;
+	font-family: sans-serif;
+	color: yellow;
 }
 
 #image_box{
 	border: 3px solid #FFFFFF;
+    position: relative;
+	bottom: 350px;
+}
+
+#ygo_pic_description{
+	text-decoration: underline;
+	position: relative;
+	right: 505px;
+	top: 5px;
+}
+
+#dmc_pic_description{
+	text-decoration: underline;
+	position: relative;
+	right: 315px;
+	top: 5px;
+}
+
+#program_pic_description{
+	text-decoration: underline;
+	position: relative;
+	right: 90px;
+	top: 5px;
+}
+
+#friends_pic_description{
+	text-decoration: underline;
+	position: relative;
+	left: 125px;
+	top: 5px;
 }
 
 #links {
