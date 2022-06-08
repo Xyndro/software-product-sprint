@@ -159,11 +159,20 @@
 
     <div id="post_form">
      <form action="/hello" method="GET">
-        <p>Enter some text here:</p>
-        <textarea name="text-input">hello world</textarea>
+        <p>Type in the box below and click Submit for a server message!</p>
+        <textarea name="text-input">Enter Text Here...</textarea>
         <br/>
         <input type="submit" />
      </form>
+    </div>
+
+    <div id="serverMessage_display">
+       <h1>Message Display</h1>
+       <p>Click the button below to receive another message from the server.</p>
+       <button onclick="showMessage();">
+         Get Message
+       </button>
+       <p id="message-container"></p>
     </div>
   </body>
 </html>

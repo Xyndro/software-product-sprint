@@ -181,3 +181,20 @@ body {
 	position: relative;
 	bottom: 350px;
 }
+
+#post_form h1{
+	text-decoration: underline;
+	font-family: sans-serif;
+	color: yellow;
+}
+
+#serverMessage_display{
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#serverMessage_display h1{
+	text-decoration: underline;
+	font-family: sans-serif;
+	color: yellow;
+}
