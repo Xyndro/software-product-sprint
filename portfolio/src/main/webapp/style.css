@@ -191,6 +191,8 @@ body {
 #serverMessage_display{
 	text-align: center;
 	color: #FFFFFF;
+    position: relative;
+	bottom: 300px;
 }
 
 #serverMessage_display h1{
