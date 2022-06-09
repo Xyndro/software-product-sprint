@@ -203,6 +203,9 @@ body {
 
 #communications{
     text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 380px;
 }
 
 #communications h1{

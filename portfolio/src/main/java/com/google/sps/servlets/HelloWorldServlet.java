@@ -16,10 +16,11 @@ public class HelloWorldServlet extends HttpServlet {
 
   @Override
   public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-    messages.add("My Favorite Game Of All Time Is Sonic Unleashed!");
-    messages.add("My Favorite Movie Of All Time Is Ultraviolet!");
-    messages.add("My Favorite Food Is Some Delicious Pizza!");
+    messages.add(" My Favorite Game Of All Time Is Sonic Unleashed! ");
+    messages.add(" My Favorite Movie Of All Time Is Ultraviolet! ");
+    messages.add(" My Favorite Food Is Some Delicious Pizza! ");
     String messagesAsJSON = JsonViaGson(messages);
+
     response.setContentType("application/json;");
     response.getWriter().println(messagesAsJSON);
   }

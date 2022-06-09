@@ -32,7 +32,7 @@ function generateQuote() {
 
 async function showMessage() {
     const responseFromServer = await fetch('/hello');
-    const textFromResponse = await responseFromServer.text();
+    const textFromResponse = await responseFromServer.json();
   
     const messageContainer = document.getElementById('message-container');
     messageContainer.innerText = textFromResponse;
