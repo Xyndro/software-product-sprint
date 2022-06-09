@@ -19,8 +19,9 @@ public class HelloWorldServlet extends HttpServlet {
     messages.add("My Favorite Game Of All Time Is Sonic Unleashed!");
     messages.add("My Favorite Movie Of All Time Is John Carpenter's Christine!");
     messages.add("My Favorite Food Is Some Delicious Pizza!");
-    response.setContentType("text/html;");
-    response.getWriter().println(messages);
+    String messagesAsJSON = JsonViaGson(messages);
+    response.setContentType("application/json;");
+    response.getWriter().println(messagesAsJSON);
   }
 
   public String JsonViaGson(ArrayList<String> messages){
