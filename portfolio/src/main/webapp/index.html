@@ -174,11 +174,16 @@
 
     <div id="serverMessage_display">
        <h1>Messages Display</h1>
-       <p>Click the button below to receive three messages from the server.</p>
+       <p>Click the first button for one message from the server! Click the other for all messages from the server!</p>
        <button onclick="showMessage();">
-         Get Messages
+         Get One Message
        </button>
        <p id="message-container"></p>
+
+       <button onclick="showAllMessages();">
+        Get All Messages
+      </button>
+      <p id="second-message-container"></p>
     </div>
 
   </body>

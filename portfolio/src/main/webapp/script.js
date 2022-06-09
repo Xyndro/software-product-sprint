@@ -35,5 +35,13 @@ async function showMessage() {
     const textFromResponse = await responseFromServer.json();
   
     const messageContainer = document.getElementById('message-container');
-    messageContainer.innerText = textFromResponse;
+    messageContainer.innerText = textFromResponse[Math.floor(Math.random() * textFromResponse.length)];
+  }
+
+  async function showAllMessages() {
+    const responseFromServer = await fetch('/hello');
+    const textFromResponse = await responseFromServer.json();
+
+    const secondMessageContainer = document.getElementById('second-message-container');
+    secondMessageContainer.innerText = textFromResponse;
   }
