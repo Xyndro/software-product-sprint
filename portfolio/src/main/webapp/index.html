@@ -157,27 +157,29 @@
 
     </div>
 
+    <div id="communications">    
+      <h1>Communications</h1>
+      <p>Look below to find ways to communicate with the server for my page!</p>
+    </div>
+
     <div id="post_form">
      <form action="/hello" method="GET">
         <h1>Button Submission Message</h1>
         <p>Type in the box below and click Submit for a server message!</p>
-        <textarea name="text-input">Enter Text Here...</textarea>
+        <textarea name="text-input">Say Hello...</textarea>
         <br/>
         <input type="submit" />
      </form>
     </div>
 
     <div id="serverMessage_display">
-       <h1>Message Display</h1>
-       <p>Click the button below to receive another message from the server.</p>
+       <h1>Messages Display</h1>
+       <p>Click the button below to receive three messages from the server.</p>
        <button onclick="showMessage();">
-         Get Message
+         Get Messages
        </button>
        <p id="message-container"></p>
     </div>
 
-    <div id="JSON_messages">
-        
-    </div>
   </body>
 </html>
