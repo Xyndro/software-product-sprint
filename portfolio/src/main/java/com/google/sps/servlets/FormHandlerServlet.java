@@ -12,13 +12,34 @@ public class FormHandlerServlet extends HttpServlet {
   @Override
   public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
 
-    // Get the value entered in the form.
+    // Get the value entered in the Contacting form.
     String textValue = request.getParameter("text-input");
 
-    // Print the value so you can see it in the server logs.
+    //Get value entered in the Joke Teller Form
+    String jokeValue = request.getParameter("joke");
+
+    // Print the textValue so you can see it in the server logs.
     System.out.println("You submitted: " + textValue);
 
+    //Prints jokeValue in server logs
+    System.out.println("Joke sent: " + jokeValue);
+
     // Write the value to the response so the user can see it.
-    response.getWriter().println("You submitted: " + textValue);
+    //response.getWriter().println("You submitted: " + textValue);
+
+    //Redirections
+    if(request.getParameter("text-input").equals("Go To GitHub")){
+        response.sendRedirect("https://github.com/Xyndro");
+    }
+
+    if(request.getParameter("text-input").equals("Go To LinkedIn")){
+        response.sendRedirect("https://www.linkedin.com/in/joseph-feliciano-354941228/");
+    }
+
+    if(request.getParameter("joke").equals("Tell Joke Here...")){
+        response.sendRedirect("https://jfeliciano-sps-summer22.uc.r.appspot.com");
+    } else{
+        response.sendRedirect("https://jfeliciano-sps-summer22.uc.r.appspot.com");
+    }
   }
 }

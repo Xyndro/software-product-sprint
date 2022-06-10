@@ -213,3 +213,16 @@ body {
 	font-family: sans-serif;
 	color: yellow;
 }
+
+#joke_teller{
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 333px;
+}
+
+#joke_teller h1{
+    text-decoration: underline;
+	font-family: sans-serif;
+	color: yellow;
+}
