@@ -47,5 +47,9 @@ async function showAllMessages() {
   }
 
 async function requestTranslation() {
-
+    const translationResponse = await fetch('/translation');
+    const translationText = await responseFromServer;
+    
+    const translationContainer = document.getElementById('result');
+    translationContainer.innerText = translationText;
 }
