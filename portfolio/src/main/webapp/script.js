@@ -38,10 +38,14 @@ async function showMessage() {
     messageContainer.innerText = textFromResponse[Math.floor(Math.random() * textFromResponse.length)];
   }
 
-  async function showAllMessages() {
+async function showAllMessages() {
     const responseFromServer = await fetch('/hello');
     const textFromResponse = await responseFromServer.json();
 
     const secondMessageContainer = document.getElementById('second-message-container');
     secondMessageContainer.innerText = textFromResponse;
   }
+
+async function requestTranslation() {
+
+}
