@@ -9,8 +9,16 @@
   <body>
     <div id="content">
 
+        <div class = "top_navigation">
+          <ul>
+            <li><a href = "index.html">About Me</a></li>
+            <li><a href = "communication.html">Communications</a></li>
+            <li><a href = "other_functions.html">Functionalities</a></li>
+          </ul>
+        </div>
+
         <div id="title">
-            <h1>Joseph Feliciano's Portfolio Page</h1>
+            <h1>About Me: Joseph Feliciano</h1>
           </div>
     
       <div id="portfolio_image">
@@ -148,75 +156,6 @@
          width="200" height="217" alt="Handball Image"> 
       </div>
 
-    </div>
-
-    <div id="communications">    
-      <h1>Communications</h1>
-      <p>Look below to find ways to communicate with the server for my page!</p>
-    </div>
-
-    <div id="post_form">
-     <form action="/form-handler" method="POST">
-        <h1>Contacting</h1>
-        <p>Type in the box below to visit my other pages!<br>
-           These pages include GitHub and LinkedIn.<br>
-           Type: Go To GitHub, or Go To LinkedIn.<br>
-           There, you can contact me much easier!</p>
-        <textarea name="text-input">Go To...</textarea>
-        <br/>
-        <input type="submit" />
-     </form>
-    </div>
-
-    <div id="joke_teller">
-       <form action="/other-form-handler" method="POST">
-        <h1>Joke Teller</h1>
-        <p>Type your favorite joke in the text box below, and<br>
-           click the button to send the joke to the server.<br>
-           You will then be redirected to the start of this page.</p>
-           <textarea name="joke">Tell Joke Here...</textarea>
-           <br/>
-           <input type="submit" />
-        </form>
-    </div>
-
-
-    <div id="serverMessage_display">
-       <h1>Messages Display</h1>
-       <p>Click the first button for another fun fact about me from the server! Click the other for all other fun facts from the server at once!</p>
-       <button onclick="showMessage();">
-         Get One Message
-       </button>
-       <p id="message-container"></p>
-
-       <button onclick="showAllMessages();">
-        Get All Messages
-      </button>
-      <p id="second-message-container"></p>
-    </div>
-
-    <div id="translation">
-      <h1>Translator Function</h1>
-      <p>Type any message you want, then select a language to have it translated in that language.</p>
-
-      <textarea id="text">Message Goes Here...</textarea>
-
-      <select id="language">
-        <option value="es">English</option>
-        <option value="zh">Chinese</option>
-        <option value="es">Spanish</option>
-        <option value="hi">Hindi</option>
-        <option value="ar">Arabic</option>
-        <option value="fr">French</option>
-        <option value="ja">Japanese</option>
-        <option value="ko">Korean</option>
-        <option value="he">Hebrew</option>
-      </select>
-
-      <button onclick="requestTranslation();">Translate Message</button>
-
-       <hr/>
-      <div id="result"></div>
     </div>
 
   </body>
